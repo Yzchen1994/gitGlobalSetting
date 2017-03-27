@@ -1,0 +1,18 @@
+[color]
+	ui = auto
+[user]
+	name = 
+	email = 
+	hist = log --graph --all --decorate
+	c = commit -am
+	p = push
+	undo = reset --hard
+	co = checkout
+	cob = checkout -b
+	s = status -s
+	ac = !git add . && git commit -am
+	po = push origin
+	pom = push origin master
+	pod = push origin dev
+	get = !git fetch && git pull origin
+	alias = config --list | grep alias
