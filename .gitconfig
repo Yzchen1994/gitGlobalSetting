@@ -3,6 +3,8 @@
 [user]
 	name = 
 	email = 
+
+[alias]
 	hist = log --graph --all --decorate
 	c = commit -am
 	p = push
